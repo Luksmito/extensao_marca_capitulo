@@ -1,0 +1,93 @@
+
+/* Estilos para o fundo do documento */
+body {
+    background-color: yellow;
+    padding: 3px;
+  }
+  
+/* Estilos para campos de entrada (input) */
+input {
+background-color: black;
+color: yellow;
+border: 1px solid black;
+border-radius: 4px;
+padding: 8px;
+}
+
+/* Estilos para botões */
+button {
+background-color: black;
+color: yellow;
+border: none;
+border-radius: 4px;
+padding: 8px 16px;
+cursor: pointer;
+}
+
+
+/* Estilos para a lista e seus itens */
+.listaEstilizada {
+    list-style: none;
+    padding: 0;
+}
+
+.listaEstilizada li {
+margin-bottom: 16px;
+padding: 12px;
+border: 1px solid black;
+border-radius: 4px;
+background-color: yellow;
+}
+
+/* Estilos para o link */
+.listaEstilizada li a {
+color: black;
+text-decoration: none;
+display: block; /* Torna o link um bloco para ocupar o espaço total */
+}
+
+/* Estilos para os botões */
+.listaEstilizada li button {
+margin-top: 8px;
+background-color: black;
+color: yellow;
+border: none;
+border-radius: 4px;
+padding: 8px 5px;
+cursor: pointer;
+margin-left: 8px;
+/*display: block;*/ /* Torna os botões blocos para ocuparem o espaço total */
+}
+
+.secaoGuardarManga {
+margin-bottom: 20px; /* Espaçamento abaixo da div */
+}
+
+.secaoGuardarManga label,
+.secaoGuardarManga input,
+.secaoGuardarManga button {
+margin-bottom: 10px; /* Espaçamento abaixo de cada elemento */
+}
+
+.secaoGuardarManga input {
+display: block; /* Faz com que o input ocupe toda a largura disponível */
+width: 90%; /* Define a largura para ocupar toda a linha */
+}
+
+.secaoGuardarManga button {
+padding: 8px 16px; /* Espaçamento interno do botão */
+}
+
+#titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#titulo img {
+  margin-left: 30px;
+}
+
+#titulo h1 {
+  margin: 0; /* Remover margem padrão do <h1> */
+}

@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "version": "0.0.1",
+  "name": "Marca página virtual",
+  "icons": {
+    "16" : "icone.png",
+    "48" : "icone.png",
+    "128" : "icone.png"
+  },
+  "permissions": [
+      "tabs",
+      "activeTab",
+      "scripting"
+    ],
+  "description": "Extensão para salvar um link de acesso rápido, pensado para voltar de onde você parou no mangá",
+  "author": "Senhor Bushido",
+  "action": {
+    "default_popup": "index.html"
+  }
+}
